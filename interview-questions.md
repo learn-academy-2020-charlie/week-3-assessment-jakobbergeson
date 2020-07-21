@@ -14,7 +14,7 @@ Answer the following questions. First, without external resources. Challenge you
 
   Your answer: A DOM event occurs when code allows a user input to update the DOM
 
-  Researched answer: // Had some trouble finding an answer that made sense to me //
+  Researched answer: Events that are are the result of user action or a state change within the DOM tree
 
 
 
@@ -44,16 +44,22 @@ Answer the following questions. First, without external resources. Challenge you
 
 6. What are three options for creating responsive design?
 
-  Your answer: 
+  Your answer: I don't know any specifics off the top of my head but I think that responsive design focuses around fitting the page layout of an app to the paramters of the device being used.
 
-  Researched answer:
+  Researched answer: media queries, boostrap - grid layout, multiple style sheets. 
 
 
 
 ## Looking Ahead: Terms for Next Week
 - Object oriented programming
+oop fort short, a programming mindset that places the greatest value on the object/ data rather than logic
 - irb
+ Interactive Ruby, a way to run Ruby in the terminal
 - Instance variable
+A variable defined to a class
 - Ruby
+Interpreted high level language
 - Class relationships
+Objects/ classes that belong to eachother
 - Getter and Setter methods in Ruby
+A getter method retrieves the value of an instance variable from an object. A setter method establishes or reestablishes the value for an instance variable.

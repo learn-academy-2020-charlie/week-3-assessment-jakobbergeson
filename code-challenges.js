@@ -6,9 +6,9 @@
 // function that takes in a certain number of indexes
 let fibonacci = (number) =>
 {
-// if the number inputed is 1 return [0,1]
-  if (number===1) {
-    return [0,1]
+// if the number inputed is 1 return [1,1]
+  if (number === 1) {
+    return [1,1]
   } else {
 // variable  that includes the fibonacci formula and pushes the answer into solution variable
     let solution = fibonacci(number - 1)
@@ -17,7 +17,7 @@ let fibonacci = (number) =>
   }
 }
 
- console.log(fibonacci(9))
+ console.log(fibonacci(10))
 
 // --------------------2) Create a function that takes in an array and returns a new array of only odd numbers sorted from least to greatest.
 
@@ -60,19 +60,28 @@ console.log(centerLetter(middleLetters2))
 
 
 // --------------------4) Create a CLASS to get the area of a sphere. Create three spheres with different radi as test cases. Area of a sphere =  4πr^2 (four pi r squared)
-// class Spheres {
-//     constructor(){
-//         this.sphere1 = 12
-//         this.sphere2 = 668
-//         this.sphere2 = 1024
+class Spheres {
+    constructor(){
+        this.area = 0
+    }
+    areaSpheres (radius){
+        this.area = 4 * Math.PI * (Math.pow(radius, 2))
+        }
+    }
 
-//     formula1 (){
-//     return 4 * 3.14 * (this.sphere1 * sphere1)
-//     }
+    var  sphere1 = new Spheres()
+    sphere1.areaSpheres(1)
 
+    var  sphere2 = new Spheres()
+    sphere2.areaSpheres(22)
 
-//     }
-//     }
+    var  sphere3 = new Spheres()
+    sphere3.areaSpheres(112)
+
+    console.log(sphere1)
+    console.log(sphere2)
+    console.log(sphere3)
+    
 
 
 

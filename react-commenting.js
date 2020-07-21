@@ -67,5 +67,5 @@ class GoodRobot extends Component{
     )
   }
 }
-// 10.
+// 10. This line is exporting this child component which can be imported into another component
 export default GoodRobot
